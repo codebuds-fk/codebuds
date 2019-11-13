@@ -1953,10 +1953,10 @@ body {
     content: "03.";
 }
 
+.box-link p{
+    color: #000000;
+}
 
-
-
-
-
-
-
+.artist-single p{
+    color: #000000;
+}
