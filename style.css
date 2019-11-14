@@ -445,13 +445,13 @@ body {
     .lineup-artists .lineup-artists-wrap .lineup-artists-description-container {
         position: absolute;
         z-index: 99;
-        top: 100px;
-        left: -75px;
+        top: 0px;
+        left: 0px;
         width: calc(100% + 75px);
     }
 
     .lineup-artists .lineup-artists-wrap:nth-of-type(even) .lineup-artists-description-container {
-        right: -75px;
+        right: 0px;
         left: auto;
     }
 
@@ -535,6 +535,7 @@ body {
     max-width: 100%;
     height: auto;
     width: 255px;
+    max-height: 400px;
 }
 
 .the-complete-lineup-artists .artist-single .featured-image a {
@@ -1959,4 +1960,8 @@ body {
 
 .artist-single p{
     color: #000000;
+}
+
+.container-top {
+    margin-top: 20px;
 }
