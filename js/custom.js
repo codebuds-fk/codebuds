@@ -17,6 +17,18 @@
         $('.dsec').html(event.strftime('%-S'));
     });
 
+    $('.lineup-click').on('click', function(event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+              window.location.hash = hash;
+            });
+        }
+    })
+
     // Events Slider
     var next_event_slider = new Swiper('.next-event-slider', {
         slidesPerView: 4,
