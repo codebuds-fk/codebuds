@@ -6,8 +6,6 @@
 }
 
 body {
-  padding: 0;
-  margin: 0;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: normal;
@@ -333,7 +331,7 @@ body {
 # The Lineup Artists - Headliners
 ------------------------------------------------------------*/
 .content-section {
-  min-height: 3000px;
+  /* min-height: 3000px; */
   width: 100%;
   padding-bottom: 0;
   background: url("images/middle-cover.jpg") no-repeat;
